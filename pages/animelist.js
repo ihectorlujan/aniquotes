@@ -9,7 +9,7 @@ import Anime from "../components/animes/Anime"
 import Grid from "../components/animes/Grid"
 import Title from "../components/cards/Title"
 
-const animelist = () => {
+const Animelist = () => {
   const [animes, setAnimes] = useState([])
 
   useEffect(async () => {
@@ -39,4 +39,4 @@ const animelist = () => {
   )
 }
 
-export default animelist
+export default Animelist
