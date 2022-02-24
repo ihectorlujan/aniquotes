@@ -56,7 +56,11 @@ export default function Home() {
             styled-components within and consume an restful API
             <hr />
             <small>
-              *Animechan is a free restful API serving quality anime quotes.
+              * Animechan is a free restful API serving quality anime quotes.
+            </small>
+            <hr />
+            <small style={{ color: "red" }}>
+              * Sorry, not mobile version yet!
             </small>
           </h3>
 
